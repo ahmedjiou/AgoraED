@@ -1,0 +1,190 @@
+:root{
+    --main-font:'Inter', sans-serif;
+}
+
+body {
+    background-color: #15161A;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #15161A;
+    overflow:hidden;
+  }
+
+li {
+    float: right;
+}
+
+li a, li button {
+    display:block;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+li button {
+    background-color: #2F27CE;
+    border-radius: 8px;
+    padding: 5px 5px;
+    border: none;
+}
+
+.central-div {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 66px;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    font-family: 'Inter', 'sans-serif';
+    
+}
+
+.title1 {
+    font-size: 30px;
+}
+
+.subtitle1 {
+    font-size: 24px;
+}
+
+.high1 {
+    font-weight: bold;
+}
+
+img {
+   /* width: 985px;
+    height: 409px;*/
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+}
+
+.buttons2 button{
+    margin-top: 35px;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #2F27CE;
+    color:#FFFFFF;
+    margin-right: 150px;
+}
+
+.subtitle2 {
+    margin-top: 100px;
+}
+
+.testimonial1 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #17181C;
+    border-radius: 8px;
+    
+    margin-top: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px #463df2;
+}
+
+.testimonial1 p {
+    font-size: 24px;
+    
+}
+
+.subtitle3 {
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.benefits img {
+    height:85px;
+    width: 85px;
+    
+}
+
+.benefits {
+    display: flex;
+    padding: 67px 70px; /* When you have two values, its always TOP&Bottom then left&right*/
+    flex-wrap: wrap;
+    
+}
+
+.benefits div {
+    background-color: #2D3039;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 5px;
+
+    /*To position the elements we want in the way we want, we can use those divs as flexbox containers*/
+    display: flex;
+    
+}
+
+.benefits p {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.endButton {
+    background-color: #2F27CE;
+    color:#FFFFFF;
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+footer {
+    background-color: #000000;
+    font-family: var(--main-font);
+    color: #FFFFFF;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height:auto;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: #FFFFFF;
+    align-self: center;
+
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
