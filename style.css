@@ -1,5 +1,26 @@
 :root{
     --main-font:'Inter', sans-serif;
+    --mobile-text-size: 24px;
+}
+
+@media only screen and (max-width: 700px){
+    .buttons2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .title1 {
+        font-size: 18px;
+    }
+    
+    .subtitle1 {
+        font-size: 12px;
+    }
+    
+
+
 }
 
 body {
@@ -94,6 +115,21 @@ img {
     margin-top: 100px;
 }
 
+.testimonial-blocks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.testimonial-blocks img {
+    width: 85px;
+    height: 85px;
+    
+}
+
+.testimonial-blocks img:hover {
+    cursor: pointer;
+}
 .testimonial1 {
     width: 100%;
     box-sizing: border-box;
@@ -104,6 +140,7 @@ img {
     padding-top: 50px;
     padding-bottom: 50px;
     box-shadow: 10px 10px #463df2;
+    transition: display 2s;
 }
 
 .testimonial1 p {
